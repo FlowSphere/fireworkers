@@ -1,6 +1,6 @@
 {
   "name": "@flowsphere/fireworkers",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "Use Cloud Firestore inside Cloudflare Workers.",
   "sideEffects": false,
   "type": "module",

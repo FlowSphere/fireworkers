@@ -28,7 +28,7 @@ type ListOptions = {
  * @param collection_path The collection path.
  * @param options Optional parameters for the list operation.
  */
-export const list = async <Fields extends Record<string, any>>(
+export const listAll = async <Fields extends Record<string, any>>(
   { jwt, project_id }: Firestore.DB,
   //...paths: string[],
   //collection_path: string,
