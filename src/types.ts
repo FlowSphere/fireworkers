@@ -155,3 +155,9 @@ export interface Status {
   message?: string;
   status?: string;
 }
+
+export interface ListResponse {
+  documents?: Document[];
+  nextPageToken?: string;
+  error?: Status;
+}

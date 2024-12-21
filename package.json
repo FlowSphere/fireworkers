@@ -1,6 +1,6 @@
 {
-  "name": "fireworkers",
-  "version": "0.4.0",
+  "name": "@flowsphere/fireworkers",
+  "version": "0.4.1",
   "description": "Use Cloud Firestore inside Cloudflare Workers.",
   "sideEffects": false,
   "type": "module",
@@ -24,16 +24,18 @@
     "serverless"
   ],
   "author": {
-    "name": "Alex Iglesias",
-    "url": "https://alexiglesias.me/"
+    "name": "FlowSphere"
   },
-  "homepage": "https://github.com/finsweet/fireworkers#readme",
+  "homepage": "https://github.com/FlowSphere/fireworkers#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/fireworkers.git"
+    "url": "https://github.com/FlowSphere/fireworkers.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/fireworkers/issues"
+    "url": "https://github.com/FlowSphere/fireworkers/issues"
   },
   "scripts": {
     "build": "node ./bin/build.js",
