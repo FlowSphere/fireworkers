@@ -1,9 +1,10 @@
 {
   "name": "@flowsphere/fireworkers",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "Use Cloud Firestore inside Cloudflare Workers.",
   "sideEffects": false,
   "type": "module",
+
   "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "exports": {
@@ -32,7 +33,8 @@
     "url": "https://github.com/FlowSphere/fireworkers.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "bugs": {
     "url": "https://github.com/FlowSphere/fireworkers/issues"
