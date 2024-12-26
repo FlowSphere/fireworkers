@@ -30,7 +30,7 @@
   "homepage": "https://github.com/FlowSphere/fireworkers#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FlowSphere/fireworkers.git"
+    "url": "git+https://github.com/FlowSphere/fireworkers.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
